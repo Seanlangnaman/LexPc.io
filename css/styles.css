@@ -1,0 +1,345 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+
+
+
+
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  color: #8f8f8f;
+}
+
+/*Headers*/
+.big-heading{
+
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+     text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #85FFBD 29%,
+      #FFFB7D 67%,
+      #419236 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+        font-size: 50px;
+  }
+
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-heading{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+/*Containers*/
+.container-fluid{
+  padding: 7% 14%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Section*/
+.colored-section{
+  background-color: #32a852;
+  color: white;
+  background: linear-gradient(-45deg, #FC00FF, #0CBABA, #081A35, #AA2C6A);
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
+  height: 70vh;
+
+  }
+
+  @keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prices{
+  background-image: url(../images/background.jpg);
+  padding: 100px 100px;
+}
+
+
+
+
+
+
+
+.white-section{
+background-color: white;
+background-image: url(../images/giphy.gif);
+
+}
+
+/*Navigation Bar*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.3rem;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: bold;
+
+
+}
+
+/*Title Section*/
+#title{
+  text-align: left;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+.title-img{
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+.animate
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #85FFBD 29%,
+    #FFFB7D 67%,
+    #419236 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+
+
+
+/*Download Buttons*/
+.download-button{
+  margin: 50px;
+  position: center;
+}
+.fab{
+  margin-right: 8px;
+}
+
+.button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer
+}
+
+/*Features*/
+#features{
+  position: relative;
+}
+.feature-title{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.features-col{
+  padding: 5%;
+}
+
+.feature-icon{
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.feature-icon:hover{
+  color: #4cd5ff;
+}
+
+/*Testimonial Section*/
+/*Intermediate Bootstrap*/
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-text{
+  padding-left: 16.5rem;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  position: relative;
+}
+.testimonial-img{
+  padding-left: 50px;
+  width: 50%;
+  height: 50%;
+  margin: 20px;
+  position: relative;
+
+}
+
+.checked{
+  color:orange;
+}
+
+
+#press{
+  background-color: #ef8172;
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+#pricing{
+  padding: 100px;
+}
+.price-text{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/*Footer*/
+.foot-icon{
+  padding: 20px 10px;
+}
+
+@media (max-width: 1020px){
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+
+/* custom css */
+
+.fa-solid{
+  height: 64px;
+  width: 64px;
+}
